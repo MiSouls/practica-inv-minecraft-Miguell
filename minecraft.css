@@ -1,0 +1,28 @@
+.inventario {
+    background-color: #c6c6c6;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 50px 100px 50px;
+    gap: 4px;
+}
+
+.slot {
+    height: 50px;
+    background-color: #8b8b8b;
+    border: 2px solid;
+    border-color: #373737 #ffffff #ffffff #373737;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+}
+
+.slot img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.slot:hover {
+    background-color: #a6a6a6;
+}
+
